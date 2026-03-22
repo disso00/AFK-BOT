@@ -46,18 +46,18 @@ jobs:
     - name: Run AFK Bot
       timeout-minutes: 340
       env:
-        BOT_USERNAME: COOLBOI
-        SERVER_HOST: pathborn.falix.me
-        SERVER_PORT: 24233
-        SERVER_VERSION: 1.21.1
+        BOT_USERNAME: bot
+        SERVER_HOST: benkhalti.falix.gg
+        SERVER_PORT: 20727
+        SERVER_VERSION: 1.21.3
         AUTH_TYPE: offline
         BOT_PASSWORD: ${{ secrets.BOT_PASSWORD }}
       run: |
         echo "=========================================="
         echo "       Starting COOLBOI AFK Bot          "
         echo "=========================================="
-        echo "Server: pathborn.falix.me:24233"
-        echo "Bot Name: COOLBOI"
+        echo "Server: benkhalti.falix.gg:20727"
+        echo "Bot Name: bot"
         echo "Max Runtime: 5 hours 40 minutes"
         echo "=========================================="
 
