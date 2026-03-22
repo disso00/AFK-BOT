@@ -6,10 +6,10 @@ const fs   = require('fs');
 const path = require('path');
 
 // ── Config ────────────────────────────────────────────────────────
-const BOT_USERNAME    = process.env.BOT_USERNAME || 'COOLBOI';
-const SERVER_HOST     = process.env.SERVER_HOST  || 'pathborn.falix.me';
-const SERVER_PORT     = parseInt(process.env.SERVER_PORT) || 24233;
-const SERVER_VERSION  = process.env.SERVER_VERSION || '1.21.1';
+const BOT_USERNAME    = process.env.BOT_USERNAME || 'bot';
+const SERVER_HOST     = process.env.SERVER_HOST  || 'benkhalti.falix.gg';
+const SERVER_PORT     = parseInt(process.env.SERVER_PORT) || 20727;
+const SERVER_VERSION  = process.env.SERVER_VERSION || '1.21.3';
 const AUTH_TYPE       = process.env.AUTH_TYPE    || 'offline';
 const MAX_RUNTIME_MIN = 340;
 const PASSWORD_FILE   = path.join(__dirname, '.bot_password');
